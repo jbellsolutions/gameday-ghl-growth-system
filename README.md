@@ -13,7 +13,7 @@ Six products packaged as **The Game Day Game Plan**:
 
 ### Distribution & Growth Layer:
 4. **LinkedIn Autopilot v2** — 40+ AI agents for autonomous LinkedIn authority building. Daily content in authentic voice, strategic engagement, lead detection, self-learning optimization
-5. **Cold Email Agent** — 13-agent GTM pipeline for partnership outreach, corporate wellness prospecting, gym partnerships, and physician referral network building
+5. **GTM Company** — 5-agent autonomous outbound system (Cold-Outreach + LinkedIn-Engage + Lead-Router + Content-Strategist + Weekly-Strategist) for corporate wellness, gym partnerships, physician referrals. All emails stay as drafts until human-approved
 6. **Power Partnerships (Jay Abraham)** — End-to-end partnership system: intake → strategy → partner research → content production → outreach. Maps Before/During/After/In-Conjunction partners per clinic
 
 **For Dr. Leigh Vinocur:** Expert Series v3 + LinkedIn Autopilot + Power Partnerships (standalone, personal brand).
@@ -67,7 +67,8 @@ gameday-ghl-growth-system/
 - [Titan Genome Content Multiplier](https://github.com/jbellsolutions/Titan-Genome-Content-Multiplier) — The content engine (Expert Series v3)
 - [Genius Tap Content System](https://github.com/jbellsolutions/genius-tap-content-system) — Ongoing monthly content production
 - [LinkedIn Autopilot v2](https://github.com/jbellsolutions/linkedin-autopilot-v2) — LinkedIn authority building (40+ agents)
-- [Cold Email Agent](https://github.com/jbellsolutions/cold-email-agent) — Cold email GTM pipeline
+- [GTM Company](https://github.com/jbellsolutions/gtm-company) — 5-agent autonomous GTM system (cold email + LinkedIn + lead routing)
+- [Cold Email Agent](https://github.com/jbellsolutions/cold-email-agent) — Cold email pipeline (component)
 - [Jay Abraham Power Partnerships](https://github.com/jbellsolutions/jay-abraham-power-partnerships) — Power partnerships system
 - [Speaker Agent Ops Dashboard](https://github.com/jbellsolutions/speakeragent-ops) — Operations dashboard
 

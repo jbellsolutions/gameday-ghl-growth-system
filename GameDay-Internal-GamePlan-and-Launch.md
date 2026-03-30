@@ -9,7 +9,7 @@
 
 ### Distribution & Growth Layer:
 4. **LinkedIn Autopilot v2** — 40+ AI agent system for autonomous LinkedIn authority building. Daily content creation in authentic voice, strategic engagement on influencer posts, lead detection, and self-learning performance optimization. Quality-gated to prevent AI slop — critical for healthcare credibility.
-5. **Cold Email Agent** — 13-agent cold email GTM pipeline. Scrape → verify → research → personalize → send. For Game Day: corporate wellness outreach, gym partnership prospecting, physician referral network building, franchise expansion leads.
+5. **GTM Company (Cold Email + Full Outbound)** — 5-agent autonomous go-to-market system: Cold-Outreach Agent (email, 50/day), LinkedIn-Engage Agent (posts + engagement 3x daily), Lead-Router (deduplication + channel assignment), Content-Strategist (weekly briefs), Weekly-Strategist (performance-driven pivots). For Game Day: corporate wellness outreach, gym partnerships, physician referrals, franchise expansion leads. All emails stay as drafts until human-approved.
 6. **Power Partnerships (Jay Abraham)** — End-to-end partnership system built from Jay Abraham's complete methodology (33 Factors, Host-Beneficiary, Strategy of Preeminence). Intake → strategy → partner research → content production → outreach. Maps Before/During/After/In-Conjunction partners for each clinic.
 
 ### How They Connect:
@@ -18,12 +18,12 @@
 Expert Series v3 (content engine)
     │
     ├──> LinkedIn Autopilot (distributes content + builds authority)
-    ├──> Cold Email Agent (outreach to partners, corporates, physicians)
+    ├──> GTM Company (outreach to partners, corporates, physicians)
     ├──> GHL Workflows (nurtures leads that come in)
     │
     └──> Power Partnerships (identifies WHO to reach, builds strategy)
              │
-             ├──> Cold Email Agent (executes partnership outreach)
+             ├──> GTM Company (executes partnership outreach)
              └──> LinkedIn Autopilot (positions for inbound partnerships)
 
 AI Integrator runs all of the above day-to-day.
@@ -232,34 +232,47 @@ Run the 10-template Partnership Content Multiplier:
 9. Case study template for partnership results
 10. Sales page for corporate wellness partnerships
 
-### Week 2 (Parallel): Cold Email Agent Setup
+### Week 2 (Parallel): GTM Company Setup (Cold Email + Full Outbound)
 
-**Goal:** Configure the cold email system for partnership outreach and corporate wellness prospecting.
+**Goal:** Configure the full GTM system for partnership outreach, corporate wellness prospecting, and physician referrals. This is a 5-agent autonomous system, not just cold email.
+
+**The 5 Agents:**
+1. **Cold-Outreach** — Processes replies, drafts personalized emails (max 50/day), never auto-sends
+2. **LinkedIn-Engage** — Posts daily content, engages with 10 ICP posts 3x daily, detects warm leads
+3. **Lead-Router** — Deduplicates contacts, assigns to best channel, enforces 48-hour no-double-touch
+4. **Content-Strategist** — Generates weekly post briefs + email angle briefs
+5. **Weekly-Strategist** — Analyzes performance, updates strategy, broadcasts to all agents
 
 **Step 1 — Configure Pipeline (Day 3)**
-- Clone cold-email-agent repo
+- Clone gtm-company repo
 - Configure for 3 outreach tracks:
   - **Track 1: Gym & Fitness Partnerships** — Local gyms, CrossFit, fitness studios
   - **Track 2: Corporate Wellness** — HR departments, benefits managers, corporate health coordinators
   - **Track 3: Physician Referrals** — PCPs, urologists, sports medicine doctors
 
 **Step 2 — Build Prospect Lists (Day 3-4)**
-- Scrape local businesses in Tony's markets via Apify
-- Verify contacts
-- Research each prospect for personalization data
+- Scrape local businesses in Tony's markets via Firecrawl
+- Research each prospect for personalization pain points
+- Deduplicate across channels via Lead-Router
 - Score and prioritize
 
 **Step 3 — Generate Outreach Sequences (Day 4-5)**
-Using the Partnership Email Formula (adapted from ColdForge):
-- Mechanism 1: Partnership-specific relevance (show you know their business)
-- Mechanism 2: Mutual value proposition (what's in it for THEM)
-- Mechanism 3: Preeminence filter (lead with value, not with ask)
-- Mechanism 4: Progressive follow-up (each touchpoint adds new value)
+Content-Strategist generates weekly briefs. Cold-Outreach executes with:
+- Personalized emails referencing specific prospect details (Firecrawl research)
+- Partnership Email Formula: relevance → mutual value → preeminence → progressive follow-up
+- Max 10 drafts per run, 50/day hard limit, all require human approval before sending
 
-**Step 4 — Configure Sending (Day 5)**
-- Set up Smartlead for email delivery
-- Configure rate limits (50-200 curated partners, not mass blast)
-- Enable reply tracking and lead routing to GHL
+**Step 4 — Configure Infrastructure (Day 5)**
+- Set up Supabase for contact tracking and agent performance data
+- Connect Gmail MCP for email drafts
+- Configure schedules: cold-outreach every 2 hours, LinkedIn-engage 3x daily
+- Enable reply classification (positive/negative/question/OOO)
+- Route warm leads to GHL for nurture
+
+**Projected Revenue Impact:**
+- Corporate wellness: $5K-$15K contracts/company → 2-4 deals/month → $120K-$720K/year
+- Physician referrals: $2K-$5K/month per practice → 1-2 deals/month → $24K-$120K/year
+- Gym partnerships: commission-based, compounding local referral volume
 
 ### Full Week 2 Deliverable:
 - 32+ Expert Series infrastructure assets
