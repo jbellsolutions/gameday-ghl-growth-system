@@ -34,8 +34,9 @@ Go High Level automation system with 8 workflow systems:
 - 3-agent quality pipeline: Creator → Critic → Approver
 
 ## Dr. Leigh Vinocur Engagement
-- Expert Series v3 only (standalone, no GHL/integrator)
-- Personal brand content engine
+- Expert Series v3 + LinkedIn Autopilot v2 + AI Integrator
+- Personal brand content engine with autonomous LinkedIn distribution
+- AI Integrator runs content pipeline + LinkedIn daily
 - Three brand pillars: ER medicine authority, medical cannabis science, stress/wellness author
 - Two content tracks: Game Day clinical + personal brand
 

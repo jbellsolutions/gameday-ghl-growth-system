@@ -30,9 +30,9 @@ AI Integrator runs all of the above day-to-day.
 ```
 
 ## For Dr. Vinocur:
-- **Expert Series v3** — Personal brand content engine
+- **Expert Series v3** — Personal brand content engine (100+ pieces/month)
 - **LinkedIn Autopilot v2** — Builds her LinkedIn from minimal posting to dominant presence
-- **Power Partnerships** — Speaking circuit, podcast bookings, media partnerships, book promotion partnerships
+- **AI Integrator** — Trained person runs the Expert Series + LinkedIn Autopilot for her daily
 
 ---
 
@@ -506,7 +506,7 @@ gameday-ghl-growth-system/
 
 ### What's Different for Her
 
-Dr. Vinocur gets the **Expert Series v3 only** — no GHL management, no AI integrator (unless she wants those separately for Ananda Medical).
+Dr. Vinocur gets **Expert Series v3 + LinkedIn Autopilot + AI Integrator**.
 
 **Her engagement:**
 - Expert Series v3 on her book + media appearances → 32+ infrastructure assets
@@ -514,6 +514,8 @@ Dr. Vinocur gets the **Expert Series v3 only** — no GHL management, no AI inte
   - ER medicine authority, book promotion, cannabis science, speaking circuit
   - LinkedIn, Instagram, TikTok, YouTube, podcast pitches, cold outreach
   - Game Day clinical content as a bonus track
+- LinkedIn Autopilot v2 → autonomous LinkedIn authority building (daily posts, engagement, lead detection)
+- AI Integrator ($1K + $300/mo) → trained person runs the Expert Series content pipeline + LinkedIn Autopilot daily so she doesn't have to touch it
 
 **The pitch to her is different:**
 - "Your credentials are CNN, TODAY Show, governor-appointed, published author, 35 years ER... and you have 2,200 Instagram followers. We fix that gap."

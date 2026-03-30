@@ -137,14 +137,15 @@ This is what feeds the GHL campaigns with actual content. Without it, the automa
 
 ### The Engagement
 
-**Expert Series v3 — Personal Brand Content Engine**
-- $5,000 setup + $1,500/month
-- 100+ pieces/month across her personal brand
+**Expert Series v3 + LinkedIn Autopilot + AI Integrator**
+- Expert Series: $5,000 setup + $1,500/month — 100+ pieces/month across her personal brand
+- LinkedIn Autopilot v2: autonomous LinkedIn authority building (daily posts, engagement, lead detection)
+- AI Integrator: $1,000 placement + $300/month — trained person runs the content pipeline + LinkedIn daily
 - Video repurposing of her TV appearances and book content
 - Cold outreach copy for speaking engagements and podcast bookings
 - Bi-weekly strategy calls
 
-Note: Dr. Vinocur gets the Expert Series ONLY — no GHL management, no AI integrator. This is purely the content multiplier applied to her personal brand (ER authority, book promotion, cannabis science, speaking circuit).
+Dr. Vinocur gets three products — Expert Series (content creation), LinkedIn Autopilot (distribution), and AI Integrator (someone to run it all). No GHL management — this is personal brand authority building.
 
 ### What We Deliver
 
