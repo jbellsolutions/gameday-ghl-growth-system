@@ -1,12 +1,38 @@
 # The Game Day Game Plan — Internal Build, Launch Strategy & GitHub Publish
 
-## Our Three Products for Game Day:
+## Our Full Product Stack for Game Day:
+
+### Core Three (The Game Day Game Plan):
 1. **GHL Workflows** — The complete automation system (speed-to-lead, reactivation, no-show, reviews, referrals, newsletters)
 2. **AI Integrator Program** — We place + train a person to run the GHL system daily with KPIs and coaching
 3. **Expert Series v3** — The content multiplier for the franchise owner (32+ assets + ongoing monthly content)
 
+### Distribution & Growth Layer:
+4. **LinkedIn Autopilot v2** — 40+ AI agent system for autonomous LinkedIn authority building. Daily content creation in authentic voice, strategic engagement on influencer posts, lead detection, and self-learning performance optimization. Quality-gated to prevent AI slop — critical for healthcare credibility.
+5. **Cold Email Agent** — 13-agent cold email GTM pipeline. Scrape → verify → research → personalize → send. For Game Day: corporate wellness outreach, gym partnership prospecting, physician referral network building, franchise expansion leads.
+6. **Power Partnerships (Jay Abraham)** — End-to-end partnership system built from Jay Abraham's complete methodology (33 Factors, Host-Beneficiary, Strategy of Preeminence). Intake → strategy → partner research → content production → outreach. Maps Before/During/After/In-Conjunction partners for each clinic.
+
+### How They Connect:
+
+```
+Expert Series v3 (content engine)
+    │
+    ├──> LinkedIn Autopilot (distributes content + builds authority)
+    ├──> Cold Email Agent (outreach to partners, corporates, physicians)
+    ├──> GHL Workflows (nurtures leads that come in)
+    │
+    └──> Power Partnerships (identifies WHO to reach, builds strategy)
+             │
+             ├──> Cold Email Agent (executes partnership outreach)
+             └──> LinkedIn Autopilot (positions for inbound partnerships)
+
+AI Integrator runs all of the above day-to-day.
+```
+
 ## For Dr. Vinocur:
-- **Expert Series v3 only** — Personal brand content engine (standalone, no GHL/integrator)
+- **Expert Series v3** — Personal brand content engine
+- **LinkedIn Autopilot v2** — Builds her LinkedIn from minimal posting to dominant presence
+- **Power Partnerships** — Speaking circuit, podcast bookings, media partnerships, book promotion partnerships
 
 ---
 
@@ -138,6 +164,110 @@ Produce the first batch:
 
 ### Week 2 Deliverable:
 32+ infrastructure assets from the Expert Series + 25+ content pieces from the Genius Tap. All ready to show Tony as proof of concept.
+
+---
+
+### Week 2 (Parallel): LinkedIn Autopilot v2 Setup
+
+**Goal:** Deploy the LinkedIn Autopilot for Game Day's provider accounts so content distributes automatically.
+
+**Step 1 — Configure LinkedIn Autopilot (Day 1)**
+- Clone linkedin-autopilot-v2 repo
+- Run setup wizard: configure voice profile, content sources, industry settings
+- Set content mix: 40% pure medical value, 25% patient stories (anonymized), 20% industry insights, 15% practice mentions
+- Configure influencer targets: men's health practitioners, sports medicine, health researchers, fitness industry leaders
+
+**Step 2 — Connect to Expert Series Output (Day 2)**
+- Route Genius Tap content → LinkedIn Autopilot publishing queue
+- Configure daily posting schedule (5:30 AM default)
+- Set engagement engine: comment on influencer posts 2x daily, auto-respond every 2 hours
+- Enable lead detection for partnership and patient inquiries
+
+**Step 3 — Quality Gates for Healthcare (Day 2)**
+- Configure forbidden phrases (no unsubstantiated medical claims)
+- Enable "Invisible Test" — would readers respect this without knowing about Game Day?
+- Set 80+ quality threshold before auto-publish
+- Enable dry-run mode for first week (manual approval)
+
+**Step 4 — Test Run (Day 3-5)**
+- Generate 5 test posts, review quality
+- Run engagement engine in dry-run mode
+- Validate lead detection triggers
+- Approve for live publishing after review
+
+### Week 2 (Parallel): Power Partnerships Strategy
+
+**Goal:** Map Game Day's power partnership ecosystem using Jay Abraham's methodology.
+
+**Step 1 — Run Intake for Game Day (Day 1)**
+Answer the 12-15 intake questions for Tony's clinics:
+- Business: men's health franchise, TRT/ED/weight loss, $150-250/mo memberships
+- Assets: in-house labs, provider expertise, sports-themed clinic brand, local presence
+- Revenue target: growth beyond current per-location numbers
+
+**Step 2 — Map Partner Categories (Day 1-2)**
+
+| Category | Game Day Partners | Partnership Type |
+|----------|------------------|-----------------|
+| **BEFORE** | Gyms, CrossFit boxes, sports nutrition stores, personal trainers | Referral — their clients become our patients |
+| **DURING** | Chiropractors, physical therapists, nutritionists, sleep specialists | Cross-referral — shared patients |
+| **AFTER** | Longevity clinics, executive health programs, wellness retreats | Upsell — our optimized patients seek next level |
+| **IN-CONJUNCTION** | Financial advisors for high-income men, executive coaches, men's lifestyle brands | Mirror audience — same demo, different service |
+
+**Step 3 — Research & Score Partners (Day 3-4)**
+- Use Apify + Firecrawl to find specific businesses in Tony's markets
+- Score each partner on: audience overlap, brand alignment, revenue potential, ease of partnership
+- Tier them: Tier 1 (pursue now), Tier 2 (pursue month 2), Tier 3 (long-term)
+
+**Step 4 — Generate Partnership Content (Day 4-5)**
+Run the 10-template Partnership Content Multiplier:
+1. Partnership content map
+2. Email newsletters for partner audience
+3. Email autoresponder for partner referrals
+4. Lead magnet (co-branded health guide)
+5. Cold outreach sequences for partner acquisition
+6. JV proposal templates
+7. Landing page for partner program
+8. Social content calendar for partnership announcements
+9. Case study template for partnership results
+10. Sales page for corporate wellness partnerships
+
+### Week 2 (Parallel): Cold Email Agent Setup
+
+**Goal:** Configure the cold email system for partnership outreach and corporate wellness prospecting.
+
+**Step 1 — Configure Pipeline (Day 3)**
+- Clone cold-email-agent repo
+- Configure for 3 outreach tracks:
+  - **Track 1: Gym & Fitness Partnerships** — Local gyms, CrossFit, fitness studios
+  - **Track 2: Corporate Wellness** — HR departments, benefits managers, corporate health coordinators
+  - **Track 3: Physician Referrals** — PCPs, urologists, sports medicine doctors
+
+**Step 2 — Build Prospect Lists (Day 3-4)**
+- Scrape local businesses in Tony's markets via Apify
+- Verify contacts
+- Research each prospect for personalization data
+- Score and prioritize
+
+**Step 3 — Generate Outreach Sequences (Day 4-5)**
+Using the Partnership Email Formula (adapted from ColdForge):
+- Mechanism 1: Partnership-specific relevance (show you know their business)
+- Mechanism 2: Mutual value proposition (what's in it for THEM)
+- Mechanism 3: Preeminence filter (lead with value, not with ask)
+- Mechanism 4: Progressive follow-up (each touchpoint adds new value)
+
+**Step 4 — Configure Sending (Day 5)**
+- Set up Smartlead for email delivery
+- Configure rate limits (50-200 curated partners, not mass blast)
+- Enable reply tracking and lead routing to GHL
+
+### Full Week 2 Deliverable:
+- 32+ Expert Series infrastructure assets
+- 25+ Genius Tap content pieces
+- LinkedIn Autopilot configured and in dry-run
+- Power Partnership strategy with 50+ scored partners across 4 categories
+- Cold email sequences ready for 3 outreach tracks
+- Partnership content (10 templates populated)
 
 ---
 

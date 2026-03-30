@@ -1,16 +1,22 @@
 # Game Day GHL Growth System
 
-A complete growth system for Game Day Men's Health franchises — GHL automation, AI integrator program, and Expert Series content engine.
+A complete growth system for Game Day Men's Health franchises — GHL automation, AI integrator program, Expert Series content engine, LinkedIn authority, cold email GTM, and power partnerships.
 
 ## What This Is
 
-Three products packaged as **The Game Day Game Plan**:
+Six products packaged as **The Game Day Game Plan**:
 
+### Core Three:
 1. **GHL Workflows** — Complete Go High Level automation: speed-to-lead (under 2 min response), 90-day database reactivation, no-show recovery, appointment reminders, review generation, referral programs, newsletter/content drip
-2. **AI Integrator Program** — Trained operator placement ($1K + $300/mo) who runs the GHL system daily with KPIs, coaching, and quota
+2. **AI Integrator Program** — Trained operator placement ($1K + $300/mo) who runs the entire system daily with KPIs, coaching, and quota
 3. **Expert Series v3** — Content Multiplier for the franchise owner: one video in, 32+ marketing assets out across 13 categories, then 52+ pieces/month ongoing via Genius Tap extraction
 
-Plus a standalone **Expert Series v3** engagement for Dr. Leigh Vinocur (personal brand content engine).
+### Distribution & Growth Layer:
+4. **LinkedIn Autopilot v2** — 40+ AI agents for autonomous LinkedIn authority building. Daily content in authentic voice, strategic engagement, lead detection, self-learning optimization
+5. **Cold Email Agent** — 13-agent GTM pipeline for partnership outreach, corporate wellness prospecting, gym partnerships, and physician referral network building
+6. **Power Partnerships (Jay Abraham)** — End-to-end partnership system: intake → strategy → partner research → content production → outreach. Maps Before/During/After/In-Conjunction partners per clinic
+
+**For Dr. Leigh Vinocur:** Expert Series v3 + LinkedIn Autopilot + Power Partnerships (standalone, personal brand).
 
 ## Expected Revenue Impact (Per Location)
 
@@ -60,6 +66,9 @@ gameday-ghl-growth-system/
 
 - [Titan Genome Content Multiplier](https://github.com/jbellsolutions/Titan-Genome-Content-Multiplier) — The content engine (Expert Series v3)
 - [Genius Tap Content System](https://github.com/jbellsolutions/genius-tap-content-system) — Ongoing monthly content production
+- [LinkedIn Autopilot v2](https://github.com/jbellsolutions/linkedin-autopilot-v2) — LinkedIn authority building (40+ agents)
+- [Cold Email Agent](https://github.com/jbellsolutions/cold-email-agent) — Cold email GTM pipeline
+- [Jay Abraham Power Partnerships](https://github.com/jbellsolutions/jay-abraham-power-partnerships) — Power partnerships system
 - [Speaker Agent Ops Dashboard](https://github.com/jbellsolutions/speakeragent-ops) — Operations dashboard
 
 ## Game Day Men's Health
@@ -74,7 +83,7 @@ gameday-ghl-growth-system/
 ## Services
 
 **For Franchise Owners (The Game Day Game Plan):**
-- GHL Workflows + AI Integrator + Expert Series = complete growth system
+- GHL Workflows + AI Integrator + Expert Series + LinkedIn Autopilot + Cold Email + Power Partnerships = complete growth system
 
 **For Individual Providers (Expert Series v3 Standalone):**
 - Content engine for personal brand authority building
