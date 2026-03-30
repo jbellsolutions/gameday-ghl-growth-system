@@ -1,0 +1,6 @@
+{
+  "permissions": {
+    "allow": ["Read", "Glob", "Grep", "Agent", "WebSearch", "WebFetch"],
+    "deny": []
+  }
+}

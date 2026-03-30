@@ -60,3 +60,15 @@ Go High Level automation system with 8 workflow systems:
 - No patient data in this repo
 - All content samples use anonymized/generic examples
 - Compliance-first approach for all implementations
+
+## Session Start
+Run /project-main at the start of each session for a repo health brief.
+
+## Agent Constraints
+- NEVER store patient data or PII in this repo
+- NEVER fabricate medical credentials or patient stories
+- NEVER guarantee specific revenue outcomes
+- ALWAYS cite sources in research documents
+- ALWAYS show conservative/moderate/aggressive ranges for projections
+- MUST pass 3-agent quality gauntlet for all content (score 75+)
+- MUST update CHANGELOG.md and TODOS.md with every meaningful change

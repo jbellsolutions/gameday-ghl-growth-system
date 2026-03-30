@@ -1,0 +1,28 @@
+# Game Day GHL Growth System
+
+## What This Is
+A complete growth system for Game Day Men's Health franchises, built by Speaker Engine AI. Three products packaged as "The Game Day Game Plan": GHL Workflows (8 automation systems), AI Integrator Program (trained operator placement), and Expert Series v3 (content engine powered by Titan Genome + Genius Tap).
+
+## Key Context
+- Client: Tony D'Agostino (owns Speaker Engine AI + 2 Game Day Men's Health franchise locations)
+- Game Day: 257+ franchise locations, $1.89M avg revenue/location, $150-250/mo patient memberships
+- Secondary engagement: Dr. Leigh Vinocur (Expert Series v3 standalone for personal brand)
+- Expected revenue impact: $741K-$1.05M additional annual revenue per location
+- AI Integrator pricing: $1,000 placement + $300/month
+- Expert Series pricing: $5,000 setup + $1,500/month (Tier 3)
+
+## Repo Structure
+- /ghl-system/ — GHL workflow configs and message templates
+- /content-system/ — Expert Series and Genius Tap content samples
+- /ai-integrator/ — Operator playbook, KPIs, training
+- /research/ — Market research, competitive intel, franchise analysis
+- /sales/ — One-pagers, strategy docs, proposals
+- /docs/ — Supporting documentation
+
+## Related Repos
+- jbellsolutions/Titan-Genome-Content-Multiplier — Content engine (Expert Series v3)
+- jbellsolutions/genius-tap-content-system — Ongoing monthly content production
+- jbellsolutions/speakeragent-ops — Operations dashboard
+
+## Healthcare Compliance
+HIPAA-sensitive. No patient data in this repo. All templates use generic/anonymized examples. GHL HIPAA add-on ($297/mo) required for deployment.
