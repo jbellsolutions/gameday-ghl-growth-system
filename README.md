@@ -8,7 +8,7 @@ Everything in this repo was built specifically for your locations. The strategy 
 
 ## What's Inside
 
-This repo has six systems that work together. You don't need to understand how they work — just what they do and what they'll produce for you.
+This repo has seven systems that work together. You don't need to understand how they work — just what they do and what they'll produce for you.
 
 ### 1. GHL Workflows (Your CRM on Autopilot)
 
@@ -76,6 +76,17 @@ This maps out exactly who you should partner with and how:
 | **IN-CONJUNCTION** | Same demographic, totally different service | Financial advisors, executive coaches, men's lifestyle brands |
 
 The system finds specific businesses in your market, scores them, generates partnership proposals, and feeds them into the outbound engine.
+
+### 7. Claude Code Training + AI Integrator Enablement
+
+A role-based internal training program for your office team:
+
+- 5-seat certification sprint (Front Desk, Ops, Marketing, Owner, Integrator)
+- Weekly coaching calls with Q&A and live workflow support
+- 1:1 support seats for blockers
+- AI Integrator placement + ongoing KPI coaching
+- Prove-first rollout at your locations before wider franchise introductions
+
 
 ---
 

@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.1.1] - 2026-04-07
+
+### Added
+- Recreated missing sales docs:
+  - `sales/Game-Day-Claude-Code-Training-Proposal.md`
+  - `sales/Game-Day-Training-Mock-Walkthroughs.md`
+- Regenerated clean `.docx` exports for all markdown files in `exports/docx/` (22 files).
+
+### Changed
+- Updated `README.md` to reflect a 7-system stack (added Claude Code Training + AI Integrator Enablement section).
+
 ## [0.1.0] - 2026-03-29
 
 ### Added

@@ -1,5 +1,11 @@
 # TODOS
 
+## Recently Completed (2026-04-07)
+- [x] Recreate training proposal doc (`sales/Game-Day-Claude-Code-Training-Proposal.md`)
+- [x] Recreate training mock walkthroughs (`sales/Game-Day-Training-Mock-Walkthroughs.md`)
+- [x] Regenerate usable `.docx` deliverables for all markdown documents (`exports/docx/`)
+- [x] Update README to include the 7th system (Claude Code Training + AI Integrator Enablement)
+
 ## GHL System
 - [ ] Build speed-to-lead workflow in GHL test account
 - [ ] Build 90-day reactivation workflow
